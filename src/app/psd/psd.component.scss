@@ -1,0 +1,70 @@
+
+.mat-card{
+    margin: 30px;
+    padding: 20px;
+}
+sub{
+    color: gray;
+}
+#search{
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 50px;
+   
+
+}
+.box{
+    display: flex;
+    width: 150px;
+    flex-wrap: wrap-reverse;
+    flex-shrink: 2;
+    flex-flow:wrap;
+   justify-content: center;
+    margin-top: 50px;
+    background-color: lightseagreen;
+    color: #fff;
+    right: 0;
+    padding: 10px;
+}
+.product{
+    margin-left: 20px;
+    margin-top:20px;
+}
+#row{
+    padding-right: 10px;
+}
+table{
+    width: 100%;
+    padding-right: 10px;
+}
+#edit{
+    background-color:lightseagreen;
+    padding:5px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-right: 10px;
+    width: 60px;
+}
+#delete{
+    background-color:pink;
+    border-radius: 10px;
+    justify-content: center;
+    padding:5px;
+    width: 60px;
+}
+.example-icon {
+    padding: 20px 20px;
+    float: right;
+    padding-bottom: 15px;
+    margin-top: -60px;
+    color:rgb(219, 184, 150);
+    
+  }
+mat-header-cell{
+    padding-right: 20px;
+}
+.search{
+    height:50px;
+    float: right;
+
+}

@@ -1,0 +1,10 @@
+<mat-sidenav-container fullscreen>
+  <mat-sidenav mode="side" #sidenav opened position="start">
+    <app-sidebar></app-sidebar>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-header> </app-header>
+    <mat-icon class="example-icon" aria-hidden="false" (click)="sidenav.toggle()">reorder</mat-icon>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

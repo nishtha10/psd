@@ -1,0 +1,84 @@
+  .login-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    flex-shrink: 2;
+    flex-flow:wrap;
+    height: auto;
+    min-height: auto;
+    justify-content: center;
+    width: 500px;
+    max-width: 100%;
+    // margin-left: auto;
+    background-color: #020029;
+    padding: 50px 35px;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 90px;
+    right: 0;
+    margin-right: 50px;
+   position: fixed;
+  }
+  .input-box input {
+    background-color: #fff;
+    box-shadow: 4px 4px 5px -2px #a7a7a7 inset;
+    font-weight: 400;
+    font-family: "poppins";
+    width: 400px;
+    padding: 0 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    display: inline-flex;
+    height: 60px;
+    line-height: 60px;
+   
+  }
+  .cheack-box input{
+     height: 20px;
+     width: 20px;
+     margin-left: 10px;
+     margin-top: 2px;
+     position: absolute;
+  }
+  .cheack-box label{
+  color: #9396a9;
+  margin-left: 40px;
+  }
+  .submit-button {
+    font-weight: 400;
+    font-family: "poppins";
+    width: 400px;
+    padding: 0 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    // color: #020029;
+    height: 60px;
+    line-height: 60px;
+    font-family: "poppins";
+    border-radius: 30px;
+    background-color: #063b80;
+    color: #fff;
+    font-size: 18px;
+    height: 60px;
+    width: 450px;
+    cursor: pointer;
+  }
+  .Register-link{
+      margin-top: 20px;
+      color: #9396a9;
+  }
+  .Register-link a
+  {
+      color: rgb(236, 109, 63);
+      text-decoration: underline
+  }
+  .forgotPassword{
+      float: right;
+      cursor: pointer;
+      color: rgb(236, 109, 63);
+      text-decoration: underline
+  }
+  
